@@ -1,0 +1,21 @@
+body {
+    border: 2px solid;
+    margin: 0;
+}
+
+#box1 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    background: yellow;
+
+    padding: 40px;
+    margin-left: 25px;
+}
+
+#box2 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    background: dodgerblue;
+}

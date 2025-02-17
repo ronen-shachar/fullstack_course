@@ -1,0 +1,22 @@
+body {
+    border: 2px solid;
+    /* margin: 0; */
+}
+
+#box1 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    background: yellow;
+
+    margin-top: 50px;
+    /* margin-left: 50px; */
+    /* margin-bottom: 50px; */
+}
+
+#box2 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    background: dodgerblue;
+}

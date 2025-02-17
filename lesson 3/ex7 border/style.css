@@ -1,0 +1,14 @@
+p {
+    border-style: solid;
+    /* border-style: dashed; */
+    /* border-style: dotted; */
+    /* border-style: double; */
+    /* border-style: ridge; */
+    /* border-style: groove; */
+    /* border-style: inset; */
+    /* border-style: outset; */
+
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+}
