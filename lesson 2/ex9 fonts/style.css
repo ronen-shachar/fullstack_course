@@ -1,0 +1,14 @@
+body {}
+
+h1 {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+/* fonts fallback */
+p {
+    font-family: "consolas" sans-serif;
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    /* text-decoration: red dotted underline; */
+}
