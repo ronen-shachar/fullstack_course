@@ -1,0 +1,56 @@
+<!-- 
+    <form>: The container for the form elements. 
+        
+    The action attribute specifies where to send the form data upon submission. 
+    
+    The method attribute specifies the HTTP method to use (usually "post" for 
+    form submission).
+
+    <label>: Associates a label with a form element. The for attribute should match 
+    the id of the corresponding input element.
+
+    <input>: Collects user input. The type attribute specifies the type of input (e.g., 
+    "text" for a single-line text field, "email" for an email address). 
+
+    The required attribute makes the field mandatory. 
+-->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>form</title>
+</head>
+
+<body>
+    <h1>form</h1>
+
+    <form action="#" method="post">
+        <div>
+            <label for="fname">First Name:</label>
+            <input id="fname" name="firstName" type="text" placeholder="john" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname">Last Name:</label>
+            <input id="lname" name="lastName" type="text" placeholder="doe" required>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+</body>
+
+</html>

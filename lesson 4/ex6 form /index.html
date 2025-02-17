@@ -1,0 +1,49 @@
+<!-- 
+    The name attribute is used to specify the name 
+    of the input field. When a form is submitted, the data entered into the 
+    form fields is sent to the server with the name attributes acting as keys 
+    for the corresponding values. 
+
+    For example, if an input field has name="username", the submitted data will 
+    include username=entered_value.
+-->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>form</title>
+</head>
+
+<body>
+    <h1>form</h1>
+
+    <form>
+        <div>
+            <label for="fname">First Name:</label>
+            <input id="fname" name="firstName" type="text" placeholder="john">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname">Last Name:</label>
+            <input id="lname" name="lastName" type="text" placeholder="doe">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+</body>
+
+</html>
